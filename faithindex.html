@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fundamentals Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Welcome to CSS Styling</h1>
+        <p>Exploring the box model and selectors</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#box-model">Box Model</a></li>
+            <li><a href="#selectors">Selectors</a></li>
+            <li><a href="#layout">Layout</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-area">
+        <section id="box-model" class="card">
+            <h2>The CSS Box Model</h2>
+            <div class="box-model-demo">
+                <div class="box-content">Content</div>
+            </div>
+            <p>Every element is a rectangular box with content, padding, border, and margin.</p>
+        </section>
+
+        <section id="selectors" class="card">
+            <h2>CSS Selectors</h2>
+            <ul class="selector-list">
+                <li class="selector-item">Element selectors (e.g., <code>p</code>)</li>
+                <li class="selector-item">Class selectors (e.g., <code>.card</code>)</li>
+                <li id="special-item">ID selectors (e.g., <code>#special-item</code>)</li>
+                <li><a href="#">Attribute selectors</a></li>
+            </ul>
+        </section>
+
+        <section id="layout" class="card">
+            <h2>Layout Techniques</h2>
+            <div class="layout-container">
+                <div class="layout-box">1</div>
+                <div class="layout-box">2</div>
+                <div class="layout-box">3</div>
+            </div>
+            <p>Elements can be positioned using various layout methods.</p>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2023 CSS Fundamentals Demo</p>
+    </footer>
+</body>
+</html>
